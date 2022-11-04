@@ -67,6 +67,16 @@ cat << EOF > index.html
 </head>
 <body>
 EOF
+cat << EOF >> index.html
+<img src="img/img1-l.jpg">
+<p>JPEG</p>
+<img src="img/img1-l.webp">
+<p>WEBP</p>
+<img src="img/img1-l.avif">
+<p>AVIF</p>
+<hr>
+<p>.</p>
+EOF
 for (( i=1; i<=$1; i++ ))
 do
 cat << EOF >> index.html
