@@ -1,0 +1,15 @@
+- Les outils d’optimisation des formats existants :
+   - Jpegoptim :
+      - Ex : jpegoptim --strip-all --all-progressive --max=75 toto.jpg (attention il remplace le fichier d’origine)
+   - Optipng :
+      - Ex : optipng toto.png (attention il remplace le fichier d’origine)
+   - Svgo :
+      - Ex : svgo toto.svg (attention il remplace le fichier d’origine)
+
+- Les outils a installer pour convertir les formats d’images :
+ 
+   - Imagemagick : utilitaire tout en un qui convertit, modifie, les format d’image :
+      - Ex : convert toto.jpg toto.webp ou convert toto.jpg toto.avif
+ 
+   - Webp et libavif-bin : utilitaires spécialisés pour webp et pour avif :
+      - Ex : cwebp -q 84 -af toto.jpg -o toto.webpavifenc -j all --codec aom --yuv 420 --min 20 --max 25 toto.jpg toto.avif
