@@ -1,3 +1,7 @@
+- docker :
+
+docker run -it --rm --hostname=alpine -p 80:80 alpine:latest /bin/sh
+
 - git :
 
 git clone https://github.com/itwars/eco-conception-scripts
