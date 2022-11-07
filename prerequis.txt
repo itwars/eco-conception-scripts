@@ -1,3 +1,7 @@
+- git :
+
+git clone https://github.com/itwars/eco-conception-scripts
+
 - Les outils d’optimisation des formats existants :
    - Jpegoptim :
       - Ex : jpegoptim --strip-all --all-progressive --max=75 toto.jpg (attention il remplace le fichier d’origine)
