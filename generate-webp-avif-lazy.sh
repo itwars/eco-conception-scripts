@@ -104,5 +104,5 @@ cat << EOF >> index.html
 </body>
 </html>
 EOF
-echo open your web browser http://localhost:8080
-python -m SimpleHTTPServer 8080 0.0.0.0 
+echo open your web browser http://localhost
+python3 -m http.server 80
