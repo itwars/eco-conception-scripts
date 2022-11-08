@@ -6,6 +6,12 @@ docker run -it --rm --hostname=alpine -p 80:80 alpine:latest /bin/sh
 
 git clone https://github.com/itwars/eco-conception-scripts
 
+- block fonts Mozilla Firefox :
+
+> Open about:config
+> Set "gfx.downloadable_fonts.enabled" to false.
+
+
 - Les outils d’optimisation des formats existants :
    - Jpegoptim :
       - Ex : jpegoptim --strip-all --all-progressive --max=75 toto.jpg (attention il remplace le fichier d’origine)
