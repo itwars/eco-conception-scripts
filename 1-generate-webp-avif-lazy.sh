@@ -16,9 +16,9 @@ rm -rf origine
 mkdir origine
 for (( i=1; i<=$1; i++ )) 
 do
-#  curl -L https://placeimg.com/900/600 > origine/img$i.jpg
+  curl -L https://placeimg.com/900/600 > origine/img$i.jpg
 #  curl -L https://placebeard.it/900/600 > origine/img$i.jpg
-  curl -L https://loremflickr.com/900/600 > origine/img$i.jpg
+#  curl -L https://loremflickr.com/900/600 > origine/img$i.jpg
 done
 
 # Convert/resize images jpg, webp and avif
